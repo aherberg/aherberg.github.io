@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    background-color: #f7f7f7;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {}
+
+header {
+    padding: 5%;
+    margin: 0;
+    overflow-y: visible;
+}
+
+#site-header {
+    background-color: inherit;
+    line-height: 0;
+    padding: 2% 0;
+}
+
+.site-content {
+    margin: 5% 5%;
+    color: #464646;
+    line-height: 1.5em;
+}
+
+.filler {
+    border: 2px solid;
+    height: 400px;
+    width: 400px;
+
+}
+
+h1, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1.2em;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.5em
+}
+
+h4 {
+    
+    
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+p {
+    max-width: 650px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2em;
+}
+
+li {}
+
+a {
+    font-weight: 500;
+    text-decoration: none; 
+    cursor: help;
+}
+
+b {}
+
+.button {
+    border: 2px solid;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    width: 150px
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.button a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-container {
+    margin: 8% 0;
+}
+
+#project{
+    padding: 0;
+}
+
+.about {}
+
+.final {}
+
+.row {}
+
+.column {}
+
+.image {
+    max-width: 700px;
+    text-align: center;
+}
+
+.intro p {
+    margin-bottom: 5%;
+}
+
+
+#love {
+    font-family: 'Courier New', monospace;
+    font-size: .5em;
+    text-align: center;
+}
+
+/******** STROLL CSS *********/
+
+.about, .process, .research, .personas, .design, .final {
+    margin-top: 10em;
+}
+
+.design {
+    margin-top: 10em;
+}
+
+/******** RESPONSIVE IMAGES ********/
+
+div.responsive img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+div.persona-responsive img {
+    width: 100%;
+    height: auto;
+}
+
+.persona-responsive {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .persona-responsive {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .persona-responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.p-img-container {
+  position: relative;
+  width: 100%;
+}
+
+/******** FADE ANIMATIONS ********/
+
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+}
+
+/********* MEDIA QUERIES *********/
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
