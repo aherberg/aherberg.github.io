@@ -238,7 +238,8 @@ img {
 @media screen and (max-width: 600px) {
   #percent {
     width: 100%;
-      font-size: 3em;s
+      font-size: 3em;
+    padding-right: 2%;
   }
 }
 
