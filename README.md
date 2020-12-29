@@ -12,9 +12,9 @@ Hei hei! I'm Anders – I design things like mobile apps, websites, and furnitur
 [Medium](https://medium.com/@aaanders "Medium")
 
 ## Stroll
-**A neighborhood exploration app**
+[**A neighborhood exploration app**](/pages/stroll.html)
 
-<img src="/assets/images/projectHero/stroll_thumb.png" width="100" height="100">
+<img src="/assets/images/projectHero/stroll_thumb.png" width="300" height="auto">
 
 (https://medium.com/@aaanders "Medium")
 
