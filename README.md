@@ -32,6 +32,7 @@ Hei hei! I'm Anders – I design things like mobile apps, websites, and furnitur
 <img src="/assets/images/projectHero/li_thumb.png" width="300" height="auto">
 
 [Da Tor Mistet Hammeren Sin ](https://aherberg.github.io/pages/thor.html)
+
 <img src="/assets/images/projectHero/torThumb.gif" width="300" height="auto">
 
 
