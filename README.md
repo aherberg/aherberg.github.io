@@ -14,7 +14,7 @@ Hei hei! I'm Anders – I design things like mobile apps, websites, and furnitur
 ## Stroll
 **A neighborhood exploration app**
 
-![test image size](/assets/images/projectHero/stroll_thumb.png?v=4&s=200)
+![test image size](/assets/images/projectHero/stroll_thumb.png?v=2&s=50)
 
 (https://medium.com/@aaanders "Medium")
 
