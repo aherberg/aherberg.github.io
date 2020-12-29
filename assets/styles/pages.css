@@ -208,7 +208,7 @@ img {
     padding: 2em;
     border-color: #C56DDF;
     display: flex;
-    max-width: 650px;
+    max-width: 100%;
     border: 1px solid #C56DDF;
 }
 
@@ -224,6 +224,7 @@ img {
     width: 33.33%;
     line-height: 1.5em;
     padding-right: 10px;
+    max-width: 80%;
 }
 
 #percent {
@@ -231,6 +232,14 @@ img {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 500;
     color: #C56DDF;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  #percent {
+    width: 100%;
+      font-size: 3em;s
+  }
 }
 
 .features {
