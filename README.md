@@ -16,6 +16,8 @@ Hei hei! I'm Anders – I design things like mobile apps, websites, and furnitur
 
 ![Philadelphia's Magic Gardens. This place was so cool!](assets/images/projectHero/era_thumb.png =250px)
 
+<img src="assets/images/projectHero/stroll_thumb.png" alt="stroll width="200px">
+
 (https://medium.com/@aaanders "Medium")
 
 (https://medium.com/@aaanders "Medium")
