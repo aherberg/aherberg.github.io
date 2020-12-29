@@ -12,7 +12,7 @@ Hei hei! I'm Anders – I design things like mobile apps, websites, and furnitur
 [Medium](https://medium.com/@aaanders "Medium")
 
 ## Stroll
-[**A neighborhood exploration app**](/pages/stroll.html)
+[**A neighborhood exploration app**](https://aherberg.github.io/pages/stroll.html)
 
 <img src="/assets/images/projectHero/stroll_thumb.png" width="300" height="auto">
 
@@ -26,7 +26,6 @@ Hei hei! I'm Anders – I design things like mobile apps, websites, and furnitur
 
 (https://medium.com/@aaanders "Medium")
 
-![](https://avatars3.githubusercontent.com/u/31112269?v=4&s=200)
 
 
 
