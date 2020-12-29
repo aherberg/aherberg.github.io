@@ -14,9 +14,7 @@ Hei hei! I'm Anders – I design things like mobile apps, websites, and furnitur
 ## Stroll
 **A neighborhood exploration app**
 
-![Philadelphia's Magic Gardens. This place was so cool!](assets/images/projectHero/era_thumb.png =250px)
-
-<img src="assets/images/projectHero/stroll_thumb.png" alt="stroll width="200px">
+![Philadelphia's Magic Gardens. This place was so cool!](assets/images/projectHero/era_thumb.png | width=400px)
 
 (https://medium.com/@aaanders "Medium")
 
