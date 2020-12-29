@@ -1,3 +1,9 @@
+/******** BEGIN CORE CSS ********/
+
+* {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -12,10 +18,9 @@ body {
     padding: 0;
 }
 
-.wrapper {}
 
 header {
-    padding: 5%;
+    padding: 2% 5% 5% 5%;
     margin: 0;
     overflow-y: visible;
 }
@@ -41,15 +46,16 @@ h1 {
     font-weight: 400;
 }
 
-/* h2 {
+h2 {
     text-transform: uppercase;
     letter-spacing: .15em;
     font-size: 1.2em;
-} */
+}
 
 h3 {
-    font-weight: 400;
-    font-size: 1.5em
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 5%;
 }
 
 h4 {
@@ -82,6 +88,34 @@ a {
 
 b {}
 
+i {
+    font-weight: 500;
+}
+
+img {
+    max-width: 650px;
+    margin: 5% 0;
+}
+
+/******** END CORE CSS ********/
+
+/******** BEGIN PAGES CSS ********/
+
+#back a {
+    color: white;
+    opacity: .5;
+      -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+#back a:hover {
+    opacity: 1;
+}
+
 .button {
     border: 2px solid;
     text-align: center;
@@ -100,82 +134,139 @@ b {}
 }
 
 .btn-container {
-    margin: 8% 0;
+    margin: 5% 0;
 }
 
-div.responsive img {
-    width: 100%;
-    height: auto;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-    position: relative;
-  padding: 18px 20px;
-  float: left;
-  width: 50%;
-}
-
-@media only screen and (max-width: 800px) {
-  .responsive {
-    width: 100%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.imgContainer {
-  position: relative;
-  width: 100%;
-}
 
 #project{
     padding: 0;
 }
 
-.about {}
-
-.final {}
-
-.row {}
-
-.column {}
-
-.intro p {
-    margin-bottom: 5%;
-}
-
 .gap {
-    height: 100px;
+    height: 60px;
 }
 
 #love {
     font-family: 'Courier New', monospace;
-    font-size: .5em;
+    font-size: 8px;
     text-align: center;
+    margin: auto;
 }
 
-/******** RESPONSIVE IMAGES ********/
+/******** END PAGES CSS ********/
+
+/******** BEGIN RESPONSIVE IMAGES ********/
+
+.column {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+
+}
+
+.row {
+    max-width: 650px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .final.column {
+    width: 100%;
+  }
+}
+
+
+
+
+/******** END RESPONSIVE IMAGES ********/
 
 
 
 /******** STROLL CSS *********/
 
+.stats {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2em;
+    border-color: #C56DDF;
+    display: flex;
+    max-width: 650px;
+    border: 1px solid #C56DDF;
+}
 
+.stats tr {
+    text-align: center;
+    width: 33.33%;
+    line-height: 1.5em;
+    font-size: .8em;
+}
+
+.stats td {
+    text-align: center;
+    width: 33.33%;
+    line-height: 1.5em;
+    padding-right: 10px;
+}
+
+#percent {
+    font-size: 5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    color: #C56DDF;
+}
+
+.features {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2em;
+    border-color: #C56DDF;
+    display: flex;
+    max-width: 650px;
+}
+
+.features tr {
+    text-align: center;
+    width: 33.33%;
+    line-height: 1.5em;
+    font-size: .8em;
+}
+
+.features td {
+    text-align: center;
+    width: 33.33%;
+    line-height: 1.5em;
+    padding-right: 10px;
+}
+
+#type {
+    font-size: 5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    color: #C56DDF;
+}
+
+.iterations p b {
+    font-size: .8em;
+}
+
+#iteration {
+    margin-bottom: 0;
+    margin-top: 1%;
+}
 
 /******** FADE ANIMATIONS ********/
 /*
