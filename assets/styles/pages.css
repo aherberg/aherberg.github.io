@@ -239,7 +239,7 @@ img {
   #percent {
     width: 100%;
       font-size: 3em;
-    padding-right: 2%;
+      padding-right: 10px;
   }
 }
 
