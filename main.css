@@ -188,7 +188,7 @@ a#insta {
 
 .arrow{
     position: absolute;
-    bottom: 5%;
+    bottom: 20%;
     left: 50%;
     transform: translate(-50%,-50%);
     margin-bottom: 5%
