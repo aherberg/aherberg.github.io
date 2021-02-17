@@ -185,13 +185,18 @@ a#insta {
     text-decoration: none;
 }
 
+#scroll {
+    margin-top: 9%;
+    text-align: center;
+    font-size: 10px;
+}
 
 .arrow{
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin-bottom: 5%
+    margin-bottom: 5%;
 }
 
 .arrow span{
@@ -298,7 +303,7 @@ div.responsive img {
 }
 
 .text p {
-    font-size: .7em;
+    font-size: 13px;
 }
 
 .text h2 {
