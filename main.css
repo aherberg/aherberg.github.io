@@ -194,10 +194,10 @@ a#insta {
 
 .arrow{
     position: absolute;
-    bottom: 15%;
     left: 50%;
     transform: translate(-50%,-50%);
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .arrow span{
