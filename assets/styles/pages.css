@@ -203,6 +203,14 @@ iframe {
   }
 }
 
+@media screen and (max-width: 650px) {
+    video, 
+    iframe {
+        width: 70% !important;
+        height: auto !important;
+    }
+}
+
 
 
 
