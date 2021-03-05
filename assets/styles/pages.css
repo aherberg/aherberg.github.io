@@ -170,10 +170,17 @@ iframe {
 
 /******** BEGIN RESPONSIVE IMAGES ********/
 
+.photos {
+    display: flex;
+    justify-content: space-between;
+    max-width: 650px;
+}
+
 .column {
     float: left;
     width: 50%;
     padding-right: 10px;
+    justify-content: space-between;
 
 }
 
@@ -246,25 +253,25 @@ iframe {
 }
 
 #percent {
-    font-size: 4em;
+    font-size: 3em;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 500;
     color: #C56DDF;
     max-width: 80%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   #percent {
-    width: 100%;
-      font-size: 3em;
-      padding-right: 10px;
+    width: 80%;
+      font-size: 2em;
+      padding-right: 0px;
   }
 }
 
 .features {
     margin-top: 5%;
     margin-bottom: 5%;
-    padding: 2em;
+    padding-bottom: 1em;
     border-color: #C56DDF;
     display: flex;
     max-width: 650px;
