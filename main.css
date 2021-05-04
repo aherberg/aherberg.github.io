@@ -178,7 +178,14 @@ a#insta {
 
 #ls {
     font-family: 'Playfair Display', serif;
-    color: #FE6100;
+    background: -webkit-linear-gradient(113deg, rgba(255,176,0,1) 0%, rgba(254,97,0,1) 62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#savi {
+    font-family: 'Playfair Display', serif;
+    color: #47B98C;
 }
 
 #browser a {
