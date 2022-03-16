@@ -2,7 +2,7 @@
 
 # aaanders.design
 
-Hei hei! I'm Anders – I design things like mobile apps, websites, and furniture. I'm a graduate student at the University of Washington, studying Human-Centered Design & Engineering. I'm interested in UX and product design. Also, my dog is more popular than me on Instagram 🐕. [View my resume »](https://aherberg.github.io/assets/documents/herberg-resume2021-public.pdf "View my resume »")
+I'm a Product Designer in Seattle and currently a UX Design Intern at Heali. I’m interested in designing experiences that help people focus more on what matters in their lives. I was previously a Product Design Intern at Savi.
 
 [Email](mailto:eherberg@uw.edu "Email")
 [LinkedIn](https://www.linkedin.com/in/eaherberg/ "LinkedIn")
