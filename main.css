@@ -179,7 +179,7 @@ body{
     border-radius: 24px;
     position: relative;
     max-width: 920px;
-    max-height: 100%;
+    max-height: auto;
 
     background: #E2E5FE;
     border: 1px solid;
