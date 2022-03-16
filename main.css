@@ -136,6 +136,19 @@ header {
         margin-left:-5px;
       }
 
+/*-- COMPANIEs --*/
+
+      .companies a svg{
+        pointer-events: none;
+      }
+      .companies a{
+        border:16px solid transparent;
+        display:inline-block;
+      }
+      .companies a:first-child{
+        margin-left:-5px;
+      }
+
       .hellobio {
         max-width:550px;
           font-size: 13px;
@@ -154,6 +167,37 @@ body{
   margin: 0;
   padding: 0;
   background-color: #000;
+}
+
+/*-- CONSTRUCTION CSS --*/
+
+#construction {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    border-radius: 24px;
+    position: relative;
+    max-width: 920px;
+    max-height: 100%;
+
+    background: #E2E5FE;
+    border: 1px solid;
+  padding: 24px;
+  box-shadow: 5px 10px #000000;
+    margin-bottom: 64px;
+
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+
+.companies {
+        text-align: center;
+    margin: auto;
+    max-width: 500px;
+    min-width: 260px;
+    word-spacing: 32px;
 }
 
 #insta span {
@@ -176,11 +220,9 @@ a#insta {
     color: #4f5bd5;
 }
 
-#ls {
+#heali {
     font-family: 'Playfair Display', serif;
-    background: -webkit-linear-gradient(113deg, rgba(255,176,0,1) 0%, rgba(254,97,0,1) 62%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    color: #48817A;
 }
 
 #savi {
