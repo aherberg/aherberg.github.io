@@ -18,8 +18,8 @@
 :root {
     font-size: 10px;
     --padding: 3rem;
-    --primary: #36314D;
-    --grey: #78718E;
+    --primary: #313036;
+    --grey: #55525C;
 }
 
 ::-moz-selection {
