@@ -2,7 +2,7 @@
 
 # aaanders.design
 
-I'm a Product Designer in Seattle and currently a UX Design Intern at Heali. I’m interested in designing experiences that help people focus more on what matters in their lives. I was previously a Product Design Intern at Savi.
+I'm a Product Designer in Seattle and currently a UX Designer at Knock CRM. I’m interested in designing experiences that help people focus more on what matters in their lives.
 
 [Email](mailto:its.erik.anders@gmail.com "Email")
 [LinkedIn](https://www.linkedin.com/in/eaherberg/ "LinkedIn")
